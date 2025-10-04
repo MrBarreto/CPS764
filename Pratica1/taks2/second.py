@@ -3,7 +3,7 @@ from mininet.net import Mininet
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 from mininet.node import RemoteController,OVSSwitch
-import time
+
 
 class LinearTopo(Topo):
     "A single host connected to a switch"
