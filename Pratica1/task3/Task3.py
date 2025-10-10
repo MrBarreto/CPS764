@@ -68,7 +68,7 @@ if __name__ == '__main__':
     selected = False
     while not selected:
         try:
-            topologia = int(input("Selecione\n1 - Topologia Single\n2 - Topologia Linear\n3 - Topologia em árvore"))
+            topologia = int(input("Selecione\n1 - Topologia Single\n2 - Topologia Linear\n3 - Topologia em árvore\n"))
         except ValueError:
             print("Erro: A entrada não é um número válido. Por favor, digite 1, 2 ou 3.")
             next
